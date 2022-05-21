@@ -4,7 +4,7 @@ package trees;
 
 // Return the number of good nodes in the binary tree.
 
-public class CountGoodNodesInBinaryTre {
+public class CountGoodNodesInBinaryTree {
   public int goodNodes(TreeNode root) {
     return dfs(root, root.val);
   }
